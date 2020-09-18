@@ -1,0 +1,29 @@
+{
+    "name": "herkod/laravel-tr",
+    "description": "Laravel 8 İçin Türkçe Çeviri Dosyaları",
+    "keywords": ["laravel", "languages", "lang", "localization", "translation"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Herkod",
+            "email": "info@herkod.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Herkod\\": "./src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Herkod\\AppServiceProvider"
+            ]
+        }
+    }
+}
