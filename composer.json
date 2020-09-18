@@ -1,6 +1,6 @@
 {
     "name": "herkod/laravel-tr",
-    "description": "Laravel 8 İçin Türkçe Çeviri Dosyaları",
+    "description": "Laravel İçin Türkçe Çeviri Dosyaları",
     "keywords": ["laravel", "languages", "lang", "localization", "translation"],
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "illuminate/support": "^7.0||^8.0"
+        "illuminate/support": "^6.0||^7.0||^8.0"
     },
     "autoload": {
         "psr-4": {

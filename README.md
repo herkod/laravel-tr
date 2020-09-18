@@ -1,4 +1,5 @@
-## Laravel 8 Türkçe dil dosyaları
+## Laravel 6, 7 ve 8 için Türkçe dil dosyaları
+Laravel 6, Laravel 7, Laravel 8 dil dosyaları aynı olduğu için paketin `^v1.0` versiyonunu bu Laravel sürümlerinde kullanabilirsiniz.
 
 ### Kurulum
 
@@ -8,9 +9,9 @@ Aşağıdaki komutu kullanarak bu paketi composer ile projenize ekleyiniz.
 composer require herkod/laravel-tr
 ```
 
-Kurulum tamamlandığında dil dosyaları otomatik olarak `/resources/lang/tr/` dizini altına kopyalamak için aşağıdaki artisan komutunu kullanabilirsiniz.
+Kurulum tamamlandığında dil dosyaları otomatik olarak `/resources/lang/tr/` dizini altına kopyalamak için aşağıdaki artisan komutunu kullanabilirsiniz. Eğer varlan dil dosyalarını güncellemek isterseniz komutun sonun `--force` parametresini ekleyebilirsiniz.
 ```bash
-php artisan vendor:publish --tag=herkod-laravel-tr --force
+php artisan vendor:publish --tag=herkod-laravel-tr
 ```
 
 ### Manuel Kurulum
@@ -32,7 +33,6 @@ Laravel projenizin dilini Türkçe'ye çevirmek için; `config/app.php` dosyası
 'locale' => 'tr',
 ```
 
-<br>
 <br>
 <br>
 <p align="center">
