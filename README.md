@@ -22,4 +22,6 @@ Laravel projenizin dilini Türkçe'ye çevirmek için; `config/app.php` dosyası
 <br>
 <br>
 <br>
-<center><a href="https://www.herkod.com"><img src="https://herkod.com/images/logo/logo.svg" width="300"></a></center>
+<p align="center">
+  <a href="https://www.herkod.com"><img src="https://herkod.com/images/logo/logo.svg" width="250"></a>
+</p>
