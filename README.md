@@ -13,6 +13,19 @@ Kurulum tamamlandığında dil dosyaları otomatik olarak `/resources/lang/tr/` 
 php artisan vendor:publish --tag=herkod-laravel-tr --force
 ```
 
+### Manuel Kurulum
+Paketi kurmadan da dil dosyalarını kullanabilirsiniz. Öncelikle [buradan repoyu indiriniz](https://github.com/herkod/laravel-tr/archive/master.zip). İndirdiğiniz zip'in içindeki `resources/lang/` içerisinde bulunan `tr` klasörünü projenizdeki `resources/lang/` altına kopyalayınız. Son hali aşağıdaki şekilde görünmelidir.
+
+    Laravel Projesi
+    ├── ...
+    ├── resources
+    │   ├── lang
+    │   |  ├── en
+    │   |  └── tr
+    └── ...
+
+### Laravel config Türkçe ayarı
+
 Laravel projenizin dilini Türkçe'ye çevirmek için; `config/app.php` dosyasındaki, `locale` kısmındaki `en` ifadesini `tr` olarak değiştiriniz.
 
 ```php
