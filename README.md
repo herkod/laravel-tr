@@ -15,7 +15,7 @@ Kurulum tamamlandığında dil dosyaları otomatik olarak `/resources/lang/tr/` 
 php artisan vendor:publish --tag=herkod-laravel-tr
 ```
 
-Dilerseniz kurulum adımlarını tamamlayarak, dosyaları `/resources/lang/tr/` klasörüne kopyaladıktan sonra aşağıdaki komut ile paketi projenizden kaldırabilirsiniz.
+Dilerseniz kurulum adımlarını tamamladıktan sonra aşağıdaki komut ile paketi projenizden kaldırabilirsiniz.
 ```bash
 composer remove herkod/laravel-tr
 ```
