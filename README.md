@@ -21,15 +21,8 @@ composer remove herkod/laravel-tr
 ```
 
 ### Manuel Kurulum
-Paketi kurmadan da dil dosyalarını kullanabilirsiniz. Öncelikle [buradan repoyu indiriniz](https://github.com/herkod/laravel-tr/archive/master.zip). İndirdiğiniz zip'in içindeki `resources/lang/` içerisinde bulunan `tr` klasörünü projenizdeki `resources/lang/` altına kopyalayınız. Son hali aşağıdaki şekilde görünmelidir.
+Paketi kurmadan da dil dosyalarını kullanabilirsiniz. Öncelikle [buradan repoyu indiriniz](https://github.com/herkod/laravel-tr/archive/master.zip). İndirdiğiniz zip'in içindeki `resources/lang/` içerisinde bulunan `tr` klasörünü projenizdeki `resources/lang/` altına kopyalayınız.
 
-    Laravel Projesi
-    ├── ...
-    ├── resources
-    │   ├── lang
-    │   |  ├── en
-    │   |  └── tr
-    └── ...
 
 ### Laravel config Türkçe ayarı
 
@@ -38,6 +31,17 @@ Laravel projenizin dilini Türkçe'ye çevirmek için; `config/app.php` dosyası
 ```php
 'locale' => 'tr',
 ```
+
+### Kurulum Sonrası
+Kurulum başarıyla tamamlandığında `/resources/lang/` klasörünün son hali aşağıdaki şekilde görünmelidir.
+
+    Laravel Projesi
+    ├── ...
+    ├── resources
+    │   ├── lang
+    │   |  ├── en
+    │   |  └── tr
+    └── ...
 
 <br>
 <br>
