@@ -9,9 +9,15 @@ Aşağıdaki komutu kullanarak bu paketi composer ile projenize ekleyiniz.
 composer require herkod/laravel-tr
 ```
 
-Kurulum tamamlandığında dil dosyaları otomatik olarak `/resources/lang/tr/` dizini altına kopyalamak için aşağıdaki artisan komutunu kullanabilirsiniz. Eğer varlan dil dosyalarını güncellemek isterseniz komutun sonun `--force` parametresini ekleyebilirsiniz.
+Kurulum tamamlandığında dil dosyaları otomatik olarak `/resources/lang/tr/` dizini altına kopyalamak için aşağıdaki artisan komutunu kullanabilirsiniz. Eğer varolan dil dosyalarını güncellemek isterseniz komutun sonuna `--force` parametresini ekleyebilirsiniz.
+
 ```bash
 php artisan vendor:publish --tag=herkod-laravel-tr
+```
+
+Dilerseniz kurulum adımlarını tamamlayarak, dosyaları `/resources/lang/tr/` klasörüne kopyaladıktan sonra aşağıdaki komut ile paketi projenizden kaldırabilirsiniz.
+```bash
+composer remove herkod/laravel-tr
 ```
 
 ### Manuel Kurulum
