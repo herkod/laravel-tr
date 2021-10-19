@@ -103,6 +103,10 @@ return [
     'required_with_all' => ':attribute alanı herhangi bir :values değeri varken zorunludur.',
     'required_without' => ':attribute alanı :values yokken zorunludur.',
     'required_without_all' => ':attribute alanı :values değerlerinden herhangi biri yokken zorunludur.',
+    'prohibited' => ':attribute alanını gönderemezsiniz.',
+    'prohibited_if' => ':other değeri :value olduğunda :attribute alanını gönderemezsiniz.',
+    'prohibited_unless' => 'Değerler\'de :other olmadığı sürece :attribute alanını gönderemezsiniz.',
+    'prohibits' => ':attribute alanı ile :other alanını birlikte gönderemezsiniz.',
     'same' => ':attribute ile :other eşleşmelidir.',
     'size' => [
         'numeric' => ':attribute :size olmalıdır.',
