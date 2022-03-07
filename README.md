@@ -10,7 +10,9 @@ composer require herkod/laravel-tr
 ```
 
 > Laravel 6, Laravel 7, Laravel 8 versiyonları için  `^v1.*` versiyonunu kullanabilirsiniz.
-> `composer require herkod/laravel-tr:1.*`
+```bash
+composer require herkod/laravel-tr:1.*
+```
 
 Kurulum tamamlandığında dil dosyalarını otomatik olarak `/resources/lang/tr/` dizini altına kopyalamak için aşağıdaki artisan komutunu kullanabilirsiniz. Eğer varolan Türkçe dil dosyalarını güncellemek isterseniz komutun sonuna `--force` parametresini ekleyebilirsiniz.
 
