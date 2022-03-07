@@ -9,7 +9,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../resources/lang/' => lang_path()
+            __DIR__.'/../resources/lang/' => base_path('lang')
         ], 'herkod-laravel-tr');
     }
 }
