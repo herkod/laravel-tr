@@ -1,7 +1,7 @@
 {
     "name": "herkod/laravel-tr",
     "description": "Laravel İçin Türkçe Çeviri Dosyaları",
-    "keywords": ["laravel", "languages", "lang", "localization", "translation","turkish"],
+    "keywords": ["laravel", "languages", "lang", "localization", "translation","turkish", "türkçe"],
     "license": "MIT",
     "authors": [
         {

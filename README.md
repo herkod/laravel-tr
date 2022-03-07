@@ -1,5 +1,5 @@
-## Laravel 6, 7 ve 8 için Türkçe dil dosyaları
-Laravel 6, Laravel 7, Laravel 8 dil dosyaları aynı olduğu için paketin `^v1.0` versiyonunu bu Laravel sürümlerinde kullanabilirsiniz.
+## Laravel 6, 7, 8 ve 9 için Türkçe dil dosyaları
+Laravel 6, Laravel 7, Laravel 8, Laravel 9 dil dosyaları aynı olduğu için paketin `^v1.*0*` versiyonunu bu Laravel sürümlerinde kullanabilirsiniz.
 
 ### Kurulum
 
