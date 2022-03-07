@@ -9,7 +9,7 @@ Aşağıdaki komutu kullanarak bu paketi composer ile projenize ekleyiniz.
 composer require herkod/laravel-tr
 ```
 
-> Laravel 6, Laravel 7, Laravel 8 versiyonları için  `^v1.*` versiyonunu kullanabilirsiniz.
+> :warning: Laravel 6, Laravel 7, Laravel 8 versiyonları için aşağıdaki composer komutunu kullanarak paketin `^v1.*` versiyonunu kullanabilirsiniz.
 
 ```bash
 composer require herkod/laravel-tr:1.*
